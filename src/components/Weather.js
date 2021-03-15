@@ -15,7 +15,7 @@ export default  function Weather(props) {
             <img src={props.conditionIcon} alt={props.condition}></img>
             <div>
                 <h2>Day Forecast</h2>
-                Average Temp: {props.averageTemp} <br></br>
+                Average Temp: {props.averageTemp}&#176;C <br></br>
                 Low/High: {props.dayLow}/{props.dayHigh}&#176;C <br></br>
                 What it will look like today: {props.dayCondition}
             </div>
