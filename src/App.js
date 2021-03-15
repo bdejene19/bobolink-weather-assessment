@@ -15,7 +15,7 @@ function App() {
       setData(response);
     }
   }
-
+  
   useEffect(() => {
     getWeatherAPI();
   }, [city])
